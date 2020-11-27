@@ -1,0 +1,30 @@
+module SignExtend(in, out);
+
+    parameter IN_WIDTH = 5;
+    parameter OUT_WIDTH = 32;
+    // parameter DIFF = OUT_WIDTH - IN_WIDTH;
+    
+    input [IN_WIDTH-1:0] in;
+    output [OUT_WIDTH-1:0] out;
+    
+    assign out = $signed(in);
+
+
+endmodule
+
+
+module SE_TB();
+  reg [4:0]a;
+  wire [31:0]b;
+  
+  SignExtend se(a, b);
+  
+  initial begin
+    a = 5'b00111;
+    #100;
+    a = 6'b10000;
+    #100;
+    $stop;
+  end
+  
+endmodule

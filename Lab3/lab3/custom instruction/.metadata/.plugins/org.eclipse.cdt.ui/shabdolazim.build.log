@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project shabdolazim ****
+
+make all 
+Info: Building ../shabdolazim_bsp/
+make --no-print-directory -C ../shabdolazim_bsp/
+[BSP build complete]
+[shabdolazim build complete]
+
+**** Build Finished ****

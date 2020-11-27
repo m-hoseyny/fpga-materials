@@ -1,0 +1,124 @@
+module Tx
+	(
+		input clk,
+		input rst,
+		input TxD_start,
+		input [7:0] TxD_data,
+		input BaudTick,
+		output reg TxD,
+		output reg Busy
+	);
+
+	parameter IDLE = 2'd0;
+	parameter SENDDATA = 2'd1;
+	parameter ENDBIT = 2'd2;
+	reg [1:0] p_State, n_State;
+	reg [3:0] cnt;
+	reg [7:0] input_Data;
+
+	always @(posedge clk) begin
+		if(~rst)
+		begin
+			cnt <= 4'd0;
+		end
+		else if(BaudTick == 1'b1)
+		begin 
+			cnt <= cnt + 1'b1;
+		end
+		else if(cnt == 4'd9)
+		begin
+			cnt <= 4'd0;
+		end
+	end
+
+	always @(*) begin
+		{TxD, Busy} = 2'b10;
+		case (p_State)
+			IDLE:
+			begin
+				Busy = 1'b0;
+				if(~TxD_start)
+				begin
+					input_Data = TxD_data;
+					n_State = SENDDATA;
+				end
+			end
+			SENDDATA:
+			begin
+				Busy = 1'b1;
+				if(cnt == 4'd0) begin 
+					TxD = 1'b0;
+					n_State = SENDDATA;
+				end 
+				else if(cnt < 4'd9) begin 
+					TxD = TxD_data[cnt - 1];
+					n_State = SENDDATA;
+				end 
+				else n_State = ENDBIT;
+			end
+			ENDBIT:
+			begin
+				TxD = 1'b1;
+				Busy = 1'b1;
+				if(BaudTick == 1'b1)
+				begin 
+					n_State = IDLE;
+				end
+			end
+			default : n_State = IDLE;
+		endcase
+	end
+
+	always @(posedge clk) begin
+		if(~rst) begin
+			p_State <= 0;
+		end else begin
+			p_State <= n_State;
+		end
+	end
+
+endmodule // Tx
+
+module Tx_TB ();
+
+	reg clk, rst, TxD_start;
+	reg [7:0] TxD_data;
+	wire TxD, Busy;
+	wire baud_rate;
+
+	Tx inst_Tx (
+		.clk       (clk),
+		.rst       (rst),
+		.TxD_start (TxD_start),
+		.TxD_data  (TxD_data),
+		.BaudTick  (baud_rate),
+		.TxD       (TxD),
+		.Busy      (Busy)
+	);
+
+	Baud_Rate_Generator #(
+			.SYSTEM_CLOCK(50000000)
+		) inst_Bound_Rate_Generator (
+			.clk        (clk),
+			.rst_n      (rst),
+			.baud_rate (baud_rate)
+		);
+
+	initial begin
+		clk = 0;
+		repeat(11000) #10 clk = ~clk;
+	end // initial
+
+	initial begin
+		rst = 0;
+		TxD_data = 8'b00111000;
+		#15;
+		rst = 1;
+		#40;
+		TxD_start = 0;
+		#5;
+		TxD_start = 1;
+	end
+
+
+endmodule

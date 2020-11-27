@@ -1,0 +1,564 @@
+!SESSION 2016-12-10 16:57:03.165 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-12-10 16:59:31.375
+!MESSAGE Indexed 'dfasf_bsp' (101 sources, 89 headers) in 1.35 sec: 2,715 declarations; 9,178 references; 157 unresolved inclusions; 5 syntax errors; 459 unresolved names (3.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-12-10 16:59:34.321
+!MESSAGE Indexed 'dfasf' (0 sources, 13 headers) in 0.01 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:37:29.985
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:37:33.154
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x10002020] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:37:33.263
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:37:36.822
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:37:36.822
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:38:23.700
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:38:26.781
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x10002020] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:38:26.921
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:38:30.542
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:38:30.542
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:41:06.808
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:41:09.852
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x10002020] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:41:09.961
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:41:13.691
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:41:13.691
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:41:40.882
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:41:44.131
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x10002020] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:41:44.256
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:41:47.892
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 17:41:47.892
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:43:58.118
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:44:00.131
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:49:25.488
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:49:30.417
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:49:32.476
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:52:05.985
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:52:06.656
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:52:08.699
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:53:06.125
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:53:06.764
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:53:08.808
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:54:11.102
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:54:11.757
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:54:13.816
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:54:56.361
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:54:57.936
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 17:54:59.964
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:01:02.637
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:01:03.292
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:01:05.336
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:01:47.615
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:01:48.254
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:01:50.267
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:02:28.458
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:02:29.114
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:02:31.142
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:03:17.087
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:03:17.789
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:03:19.864
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:04:48.880
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:04:49.536
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:04:51.595
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:04:57.264
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:04:57.279
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:05:03.082
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:05:05.110
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:05:47.358
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:05:48.013
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:05:50.041
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:06:39.699
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:06:40.370
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:06:42.414
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:06:47.223
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:06:47.223
+!MESSAGE Downloading ELF Process failed
+!SESSION 2016-12-10 18:08:10.517 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-10 18:08:15.322
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:08:30.610
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:08:32.669
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:09:16.805
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:09:17.476
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:09:19.488
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:10:10.675
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:10:11.330
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:10:13.389
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:16:16.670
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:16:17.325
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:16:19.338
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:16:47.696
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:16:48.444
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:16:50.472
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:17:20.348
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:17:20.988
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:17:23.000
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:20:35.304
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:20:35.959
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:20:38.003
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:21:15.398
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:21:16.053
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:21:18.081
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:23:53.288
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:23:53.928
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:23:55.971
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:25:39.214
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:25:39.854
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:25:41.897
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:31:08.423
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:31:09.079
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:31:11.200
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:31:17.334
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:31:17.334
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:31:22.981
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:31:25.009
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:24.022
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:24.677
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:27.752
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:34.774
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:35.445
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:37.473
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:34:41.561
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:34:41.561
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:50.266
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:34:52.294
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:35:49.345
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:35:49.985
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:35:52.060
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:38:43.927
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:38:44.567
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:38:46.641
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:39:26.751
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:39:27.406
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:39:29.419
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:39:32.228
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:39:32.228
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:39:38.249
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:39:40.231
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:40:18.141
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:40:18.780
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:40:20.824
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:42:52.538
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:42:53.193
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:42:56.237
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:45:58.510
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:45:59.228
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:46:01.271
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:46:06.895
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:46:06.895
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:46:13.915
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:46:15.943
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:47:55.661
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+!SESSION 2016-12-10 18:49:16.616 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-10 18:49:22.388
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:49:36.163
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:49:38.191
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:49:41.094
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x10002020, /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf] return code: 134
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-10 18:49:41.094
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:49:46.180
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-10 18:49:48.255
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+!SESSION 2016-12-14 16:16:07.136 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-14 16:19:15.531
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-14 16:19:15.631
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-14 16:19:40.108
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-12-14 16:19:40.110
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-14 16:20:21.876
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-14 16:20:24.739
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-14 16:40:11.040
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-14 16:40:11.979
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-12-14 16:40:14.104
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+!SESSION 2017-01-03 17:23:17.707 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-01-03 17:24:55.335
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-01-03 17:24:57.496
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-01-03 17:26:07.708
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-01-03 17:26:09.738
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-01-03 17:31:18.285
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-01-03 17:31:18.903
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x10002020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-01-03 17:31:20.926
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x10002020 /cygdrive/c/Users/MATRIX/Desktop/sharm4/software/dfasf/dfasf.elf]

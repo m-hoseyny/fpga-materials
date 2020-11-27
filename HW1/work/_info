@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vripple_counter
+Z1 !s100 m<ZY2e`9zOHLHccA1P>VP3
+Z2 IfFc>oYMnLh:cWP95^1TdY2
+Z3 VJ51WKV@eLUh[lk23LA=UQ0
+Z4 dE:\Mohammad Hosseini\FPGA\HW1
+Z5 w1538798787
+Z6 8E:/Mohammad Hosseini/FPGA/HW1/HW1_p56.v
+Z7 FE:/Mohammad Hosseini/FPGA/HW1/HW1_p56.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/Mohammad Hosseini/FPGA/HW1/HW1_p56.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1538799644.752000
+Z12 !s107 E:/Mohammad Hosseini/FPGA/HW1/HW1_p56.v|
+!s101 -O0
+vripple_counter_TB
+!i10b 1
+!s100 M33=?PXN?WAmaU=L2A;Qo1
+IBGT2>@UUCf^`BU<MnK6HT1
+Z13 VMPn^B[Il1AfZW:[4TWS:@2
+R4
+w1538799639
+Z14 8E:/Mohammad Hosseini/FPGA/HW1/HW1_p56_TB.v
+Z15 FE:/Mohammad Hosseini/FPGA/HW1/HW1_p56_TB.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1538799644.931000
+!s107 E:/Mohammad Hosseini/FPGA/HW1/HW1_p56_TB.v|
+Z16 !s90 -reportprogress|300|-work|work|E:/Mohammad Hosseini/FPGA/HW1/HW1_p56_TB.v|
+!s101 -O0
+R10
+Z17 nripple_counter_@t@b

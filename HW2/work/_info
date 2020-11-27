@@ -1,0 +1,90 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\microsoft\Documents\UT\FPGA\Lab1
+vdut
+Z1 IKQ0MnA5ShE9m<cA3iS]8?1
+Z2 Vbme59W2czHQIen0WnHWem2
+Z3 dC:\Users\microsoft\Documents\UT\FPGA\HW2
+Z4 w1539942670
+Z5 8C:/Users/microsoft/Documents/UT/FPGA/HW2/dut.v
+Z6 FC:/Users/microsoft/Documents/UT/FPGA/HW2/dut.v
+L0 3
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 dV5Z=3d<EK[<AcLQEcCcA2
+Z10 !s108 1539942676.969000
+Z11 !s107 C:/Users/microsoft/Documents/UT/FPGA/HW2/dut.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/microsoft/Documents/UT/FPGA/HW2/dut.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdut_property
+Z13 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z14 !s100 g:zo3HD]LO^nS^jmBJb2[0
+Z15 Ic3;ZE_92jgk4z61N2aBi:2
+Z16 VK?RLX30YUPQMK>SRGCTz;2
+Z17 !s105 dut_property_sv_unit
+S1
+R3
+Z18 w1539942351
+Z19 8C:/Users/microsoft/Documents/UT/FPGA/HW2/dut_property.sv
+Z20 FC:/Users/microsoft/Documents/UT/FPGA/HW2/dut_property.sv
+L0 1
+R7
+r1
+31
+Z21 !s90 -reportprogress|300|-work|work|-sv|C:/Users/microsoft/Documents/UT/FPGA/HW2/dut_property.sv|
+Z22 o-work work -sv -O0
+Z23 !s108 1539942677.139000
+Z24 !s107 C:/Users/microsoft/Documents/UT/FPGA/HW2/dut_property.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_dut
+R13
+!i10b 1
+Z25 !s100 RONbHPM:AL;IJ@FG9z34J2
+Z26 I[HZBGglZl6C[7994nY5Il0
+Z27 VQk3fX`8VYUbzK=@9ZlznA1
+Z28 !s105 test_dut_sv_unit
+S1
+R3
+w1540045177
+Z29 8C:/Users/microsoft/Documents/UT/FPGA/HW2/test_dut.sv
+Z30 FC:/Users/microsoft/Documents/UT/FPGA/HW2/test_dut.sv
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1540045485.243000
+!s107 C:/Users/microsoft/Documents/UT/FPGA/HW2/test_dut.sv|
+Z31 !s90 -reportprogress|300|-work|work|-sv|C:/Users/microsoft/Documents/UT/FPGA/HW2/test_dut.sv|
+!s101 -O0
+R22
+vtest_overlap_nonoverlap
+R13
+Z32 IUflOhRB`gZBN]P;AkGgRn2
+Z33 VR0aH[8>;aOPEEAc1hi0JQ0
+Z34 !s105 test_overalp_nonoverlap_sv_unit
+S1
+R3
+Z35 w1540045465
+Z36 8C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv
+Z37 FC:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv
+L0 3
+R7
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|-sv|C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv|
+R22
+!i10b 1
+Z39 !s100 @B8aTgM6gd@?n^>6UBI>j3
+!s85 0
+Z40 !s108 1540045479.242000
+Z41 !s107 C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv|
+!s101 -O0

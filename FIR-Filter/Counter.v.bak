@@ -1,0 +1,55 @@
+module Counter(clk, reset, inc, out);
+    parameter WIDTH = 16;
+    input clk, reset, inc;
+    output [WIDTH-1:0] out;
+    reg [WIDTH-1:0] cnt;
+
+    always@(posedge clk, negedge reset) begin
+        if (!reset)
+            cnt <= 0;
+        else begin
+            if (inc)
+                cnt <= cnt + 1;
+            else 
+                cnt <= cnt;
+        end
+    end
+
+    assign out = cnt;
+
+endmodule
+
+module Counter_TB();
+    reg clk, reset, inc;
+    wire[10:0] out;
+
+    Counter #(
+        .WIDTH(11)
+    ) cnt (clk, reset, inc, out);
+
+    initial begin
+        clk = 0'b0;
+        inc = 1'b0;
+        repeat(100) #10 clk = ~clk;
+    end
+        
+
+    initial begin
+        reset = 1'b1;
+        #2;
+        reset = 1'b0;
+        #25;
+        reset = 1'b1;
+        #5;
+        inc = 1'b1;
+        #40;
+        inc = 1'b0;
+        #20;
+        inc = 1'b1;
+        #500;
+        $stop;
+
+    end
+
+
+endmodule

@@ -1,0 +1,86 @@
+!SESSION 2019-01-06 15:45:36.127 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fa_IR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-06 15:46:37.081
+!MESSAGE Indexed 'fgaweg' (۶ sources, ۱۴ headers) in ۰٫۷۸ sec: ۱۲۷ declarations; ۳۲۲ references; ۲۱ unresolved inclusions; ۰ syntax errors; ۲۲ unresolved names (‪٪۴٫۶۷‬)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-06 15:46:38.224
+!MESSAGE Indexed 'fgaweg_bsp' (۱۰۱ sources, ۸۹ headers) in ۱٫۱۴ sec: ۲٬۷۱۵ declarations; ۹٬۱۷۸ references; ۱۵۷ unresolved inclusions; ۵ syntax errors; ۴۵۹ unresolved names (‪٪۳٫۷۲‬)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 15:47:29.295
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 15:47:32.050
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:00:54.644
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:00:55.306
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:00:57.981
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:04:09.790
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:04:11.320
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:04:14.379
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:18:31.046
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:18:32.580
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:18:36.118
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:20:17.557
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:20:19.021
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:20:21.998
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:25:11.538
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:25:12.331
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:25:15.271
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:26:25.274
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:26:25.948
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 16:26:28.643
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]
+!SESSION 2019-01-06 18:45:29.132 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fa_IR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 18:45:57.213
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1483182349]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-01-06 18:45:59.838
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1483182349 /cygdrive/c/Users/microsoft/Documents/UT/FPGA/Lab4/lab4/lab4_hardware/software/fgaweg/fgaweg.elf]

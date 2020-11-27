@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.egit.core,1.3.0.201202151440-r,"org.eclipse.egit.core",1546164219610
+started,bundle,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui",1546164219611
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1546164219611
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1546164219611
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1546164219612
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1546164219612
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1546164219612
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1546164219613
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1546164219613
+started,bundle,org.eclipse.equinox.p2.core,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.core",1546164219614
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.300.v20110815-1419,"org.eclipse.equinox.p2.directorywatcher",1546164219614
+started,bundle,org.eclipse.equinox.p2.engine,2.1.1.R37x_v20111003,"org.eclipse.equinox.p2.engine",1546164219615
+started,bundle,org.eclipse.equinox.p2.metadata,2.1.0.v20110815-1419,"org.eclipse.equinox.p2.metadata",1546164219615
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.2.0.v20110815-1419,"org.eclipse.equinox.p2.metadata.repository",1546164219615
+started,bundle,org.eclipse.equinox.p2.operations,2.1.1.R37x_v20111111,"org.eclipse.equinox.p2.operations",1546164219616
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.100.v20110815-1419,"org.eclipse.equinox.p2.reconciler.dropins",1546164219616
+started,bundle,org.eclipse.equinox.p2.repository,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.repository",1546164219617
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.100.v20110815-1419,"org.eclipse.equinox.p2.ui.sdk.scheduler",1546164219617
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.200.v20110815-1419,"org.eclipse.equinox.p2.updatechecker",1546164219617
+started,bundle,org.eclipse.equinox.preferences,3.4.2.v20120111-2020,"org.eclipse.equinox.preferences",1546164219618
+started,bundle,org.eclipse.equinox.registry,3.5.101.R37x_v20110810-1611,"org.eclipse.equinox.registry",1546164219618
+started,bundle,org.eclipse.equinox.security,1.1.1.R37x_v20110822-1018,"org.eclipse.equinox.security",1546164219619
+started,bundle,org.eclipse.equinox.util,1.0.300.v20110502,"org.eclipse.equinox.util",1546164219619
+started,bundle,org.eclipse.help,3.5.100.v20110426,"org.eclipse.help",1546164219620
+started,bundle,org.eclipse.jface,3.7.0.v20110928-1505,"org.eclipse.jface",1546164219620
+started,bundle,org.eclipse.jgit,1.3.0.201202151440-r,"org.eclipse.jgit",1546164219621
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1546164219621
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r372_v20111101-0700,"org.eclipse.ltk.core.refactoring",1546164219623
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.6.5.v20120123-0100,"org.eclipse.mylyn.bugzilla.core",1546164219624
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.bugzilla.ui",1546164219624
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1546164219624
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1546164219624
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1546164219625
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1546164219625
+started,bundle,org.eclipse.mylyn.context.ui,3.6.1.v20120112-0100,"org.eclipse.mylyn.context.ui",1546164219626
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1546164219626
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.5.v20120215-0100,"org.eclipse.mylyn.tasks.ui",1546164219627
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1546164219627
+started,bundle,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search",1546164219628
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1546164219629
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1546164219629
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1546164219630
+started,bundle,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui",1546164219630
+started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1546164219631
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1546164219631
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1546164219632
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1546164219633
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1546164219633
+started,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1546164219634
+started,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1546164219634
+started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1546164219635
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.resources",1546164219635
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1546164219636
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1546164219636
+started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1546164219637
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1546164219638
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1546164219638
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1546164219638
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1546164219639
+started,bundle,com.altera.sbtgui.integration,13.13.0.132,"com.altera.sbtgui.integration",1546164219639
+started,bundle,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch",1546164219639
+started,bundle,com.altera.sbtgui.project,13.13.0.132,"com.altera.sbtgui.project",1546164219640
+started,bundle,com.altera.systemconsole,13.13.0.132,"com.altera.systemconsole",1546164219641
+started,bundle,com.altera.systemconsole.designs.plugin,13.13.0.132,"com.altera.systemconsole.designs.plugin",1546164219641
+started,bundle,com.altera.utilities,13.13.0.132,"com.altera.utilities",1546164219641
+os,sysinfo,,,"win32",1546164219644
+arch,sysinfo,,,"x86",1546164219644
+ws,sysinfo,,,"win32",1546164219644
+locale,sysinfo,,,"fa_IR",1546164219644
+processors,sysinfo,,,"4",1546164219644
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1546164219644
+java.runtime.version,sysinfo,,,"1.6.0_23-b05",1546164219644
+java.specification.name,sysinfo,,,"Java Platform API Specification",1546164219644
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1546164219644
+java.specification.version,sysinfo,,,"1.6",1546164219644
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1546164219644
+java.version,sysinfo,,,"1.6.0_23",1546164219644
+java.vm.info,sysinfo,,,"mixed mode",1546164219644
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1546164219644
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1546164219644
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1546164219644
+java.vm.specification.version,sysinfo,,,"1.0",1546164219644
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1546164219644
+java.vm.version,sysinfo,,,"19.0-b09",1546164219644
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164225220
+started,bundle,com.altera.sbtgui.core,13.13.0.132,"com.altera.sbtgui.core",1546164253387
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164253502
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.import",1546164253532
+started,bundle,org.eclipse.linuxtools.cdt.autotools.core,1.0.2.201202152032,"org.eclipse.linuxtools.cdt.autotools.core",1546164253926
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1546164254277
+started,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.gnu.ui",1546164255218
+started,bundle,org.eclipse.cdt.msw.build,1.0.0.201202111925,"org.eclipse.cdt.msw.build",1546164255509
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546164256186
+opened,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546164265502
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164265544
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1546164266026
+started,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1546164266064
+started,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1546164266065
+started,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1546164266066
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164274057
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164276490
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164422170
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546164423229
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546164427910
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1546164439307
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546164439341
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring",1546164439351
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546164439518
+started,bundle,org.eclipse.cdt.codan.ui,2.0.1.201202111925,"org.eclipse.cdt.codan.ui",1546164439822
+started,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201202111925,"org.eclipse.cdt.codan.checkers.ui",1546164440476
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164471428
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164471647
+started,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1546164481603
+started,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1546164481611
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164481816
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164486764
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164486822
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164497636
+started,bundle,org.eclipse.cdt.launch,7.0.0.201202111925,"org.eclipse.cdt.launch",1546164506279
+started,bundle,com.altera.debug.cdi.gdb.plugin,13.13.0.132,"com.altera.debug.cdi.gdb.plugin",1546164539722
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164540580
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164541147
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546164551015
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166732677
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166741369
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166842247
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166852240
+error,log,,,"Unable to validate connection settings.",1546166854665
+error,log,,,"Unable to validate connection settings.",1546166854677
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166857550
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166861599
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166862048
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166863189
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166864073
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166864939
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166926038
+error,log,,,"Unable to validate connection settings.",1546166938110
+error,log,,,"Unable to validate connection settings.",1546166938120
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166938143
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166944865
+error,log,,,"Unable to validate connection settings.",1546166967717
+error,log,,,"Unable to validate connection settings.",1546166967753
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166967790
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166980698
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546166981709
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546166986833
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546166986974
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546166989196
+started,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1546166989226
+error,log,,,"Unable to validate connection settings.",1546166999858
+error,log,,,"Unable to validate connection settings.",1546166999876
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546166999891
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546167004197
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546167021974
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167021982
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167024397
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167024494
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546167030112
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546167034414
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546167038192
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546167676928
+opened,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546167681626
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1546167682085
+started,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1546167682119
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546167692854
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167841766
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546167863745
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167864006
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167864127
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546167866282
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167866495
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167866614
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546167869648
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167869867
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167869990
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167885014
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167899484
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167916374
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546167935957
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546167946464
+activated,view,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views.ContentOutline",1546167946534
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546167947084
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546167967428
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1546167973758
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1546167975125
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546168008640
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546168012052
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20111007_r372,"org.eclipse.ui.externaltools",1546168023197
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168023336
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168024805
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20111007_r372,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1546168024833
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546168025648
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546168025976
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546168033110
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546168064106
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1546168066748
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546168071889
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168120507
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168253458
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168272073
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168281822
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168307840
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168377787
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168379565
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168421712
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1546168516292
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1546168519962
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546168520349
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1546168576882
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1546168578414
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168597148
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546168598698
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546168605652
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546168606156
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546168612846
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546168659994
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1546168664888
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1546168676704
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546168676920
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546168688216
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546168688618
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546168695912
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546168776034
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546169034755
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546169094846
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546169176498
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546179264290
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179282719
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546179283124
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179291535
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546179514245
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546179556029
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179569939
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546179570271
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179577317
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546179610899
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546179614218
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546179616731
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179626160
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546179626508
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179633235
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546179656884
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546179689290
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546179699764
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546179699929
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546179703037
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179710808
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1546179711123
+activated,view,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1546179718505
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546179801883
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180000516
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180040323
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180134496
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180138050
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1546180138086
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1546180178997
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1546180200408
+error,log,,,"Unable to validate connection settings.",1546180214578
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180214611
+error,log,,,"Unable to validate connection settings.",1546180214648
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180219583
+error,log,,,"Unable to validate connection settings.",1546180234663
+error,log,,,"Unable to validate connection settings.",1546180234674
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180234695
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180236861
+error,log,,,"Unable to validate connection settings.",1546180248369
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180248405
+error,log,,,"Unable to validate connection settings.",1546180248413
+error,log,,,"Unable to validate connection settings.",1546180251598
+error,log,,,"Unable to validate connection settings.",1546180251611
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180253907
+error,log,,,"Unable to validate connection settings.",1546180271366
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180271400
+error,log,,,"Unable to validate connection settings.",1546180271402
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1546180274627

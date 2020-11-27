@@ -1,0 +1,40 @@
+
+State Machine - |MIPS|Tx:inst_Tx|state
+Name state.IDLE state.ENDBIT state.SENDDATA 
+state.IDLE 0 0 0 
+state.SENDDATA 1 0 1 
+state.ENDBIT 1 1 0 
+
+State Machine - |MIPS|FIR:inst_FIR|ps
+Name ps.Calculation_ReadDataFromRam ps.ValidOutPut ps.Calculation_OutPutReg ps.Calculation_PipStage ps.WriteDataToRam ps.Idle 
+ps.Idle 0 0 0 0 0 0 
+ps.WriteDataToRam 0 0 0 0 1 1 
+ps.Calculation_PipStage 0 0 0 1 0 1 
+ps.Calculation_OutPutReg 0 0 1 0 0 1 
+ps.ValidOutPut 0 1 0 0 0 1 
+ps.Calculation_ReadDataFromRam 1 0 0 0 0 1 
+
+State Machine - |MIPS|controller:inst_controller|ps
+Name ps.InputValidStage ps.Busy2 ps.SendData2 ps.Busy1 ps.SendData1 ps.FIRCalculation ps.GetData2 ps.0000 
+ps.0000 0 0 0 0 0 0 0 0 
+ps.GetData2 0 0 0 0 0 0 1 1 
+ps.FIRCalculation 0 0 0 0 0 1 0 1 
+ps.SendData1 0 0 0 0 1 0 0 1 
+ps.Busy1 0 0 0 1 0 0 0 1 
+ps.SendData2 0 0 1 0 0 0 0 1 
+ps.Busy2 0 1 0 0 0 0 0 1 
+ps.InputValidStage 1 0 0 0 0 0 0 1 
+
+State Machine - |MIPS|Rx:inst_Rx|ns
+Name ns.CHECK_START ns.DATA_READY ns.PROC ns.START 
+ns.START 0 0 0 0 
+ns.PROC 0 0 1 1 
+ns.DATA_READY 0 1 0 1 
+ns.CHECK_START 1 0 0 1 
+
+State Machine - |MIPS|Rx:inst_Rx|ps
+Name ps.CHECK_START ps.DATA_READY ps.PROC ps.START 
+ps.START 0 0 0 0 
+ps.PROC 0 0 1 1 
+ps.DATA_READY 0 1 0 1 
+ps.CHECK_START 1 0 0 1 

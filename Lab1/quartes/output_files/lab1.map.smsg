@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at FIR.v(123): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at Rx.v(57): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at Rx.v(7): object "data_ready" differs only in case from object "DATA_READY" in the same scope

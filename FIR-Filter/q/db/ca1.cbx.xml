@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ca1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|CoeffRam:coeffram|altsyncram:memory_rtl_0" CBX_FILE_NAME="altsyncram_j171.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FIR|Mult:mult|lpm_mult:Mult0" CBX_FILE_NAME="mult_h1t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

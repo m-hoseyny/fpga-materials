@@ -1,0 +1,15 @@
+{E:/Mohammad Hosseini/FPGA/HW1/HW1_p56.v} {1 {vlog -work work {E:/Mohammad Hosseini/FPGA/HW1/HW1_p56.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ripple_counter
+
+Top level modules:
+	ripple_counter
+
+} {} {}} {E:/Mohammad Hosseini/FPGA/HW1/HW1_p56_TB.v} {1 {vlog -work work {E:/Mohammad Hosseini/FPGA/HW1/HW1_p56_TB.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ripple_counter_TB
+
+Top level modules:
+	ripple_counter_TB
+
+} {} {}}

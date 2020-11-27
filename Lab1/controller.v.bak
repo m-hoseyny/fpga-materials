@@ -1,0 +1,182 @@
+module controller (
+	input clk,    // Clock
+	input rst_n,  // Asynchronous reset active low
+	input data_ready,
+	input outputValid,
+	input [7:0]DataInRx,
+	input [15:0]DataInFIR,
+	input busy,
+	output reg inputValid,
+	output reg TxD_start,
+	output reg[7:0] DataOutTx,
+	output reg[15:0] DataOutFIR
+);
+	
+	parameter GetData1 = 4'd0, GetData2 = 4'd1, FIRCalculation = 4'd2, SendData1 = 4'd3, Busy1 = 4'd4,
+			  SendData2 = 4'd5, Busy2 = 4'd6, InputValidStage = 4'd7;
+
+	reg [15:0]IOData;
+	reg [7:0] IOData_8;
+
+	reg [3:0]ps;
+
+	always @(posedge clk) begin : proc_ps
+		if(~rst_n) begin
+			ps <= 4'd0;
+		end else begin
+			case(ps)
+			GetData1:
+			begin
+				if(data_ready)
+				begin
+					ps <= GetData2;
+					IOData_8 <= DataInRx;//<<8;
+				end
+				else begin
+					ps <= GetData1;
+				end
+			end
+
+			GetData2:
+				begin
+				if(data_ready)
+				begin
+					ps <= InputValidStage;
+					IOData <= {DataInRx,IOData_8};
+				end
+				else begin
+					ps <= GetData2;
+				end
+			end
+
+			InputValidStage:
+			begin
+				ps <= FIRCalculation;
+			end
+
+			FIRCalculation:
+			begin
+				if(outputValid)
+				begin
+					ps <= SendData1;
+					IOData <= DataInFIR;
+				end
+				else begin
+					ps <= FIRCalculation;
+				end
+
+			end
+
+			SendData1:
+			begin
+				if(busy)
+				begin
+					ps <= Busy1;
+				end
+				else begin
+					ps <= SendData1;
+				end
+			end
+
+			Busy1:
+			begin
+				if(busy)
+				begin
+					ps <= Busy1;
+				end
+				else begin
+					ps <= SendData2;
+				end
+			end
+
+			SendData2:
+			begin
+				if(busy)
+				begin
+					ps <= Busy2;
+				end
+				else begin
+					ps <= SendData2;
+				end
+			end
+
+			Busy2:
+			begin
+				if(busy)
+				begin
+					ps <= Busy2;
+				end
+				else begin
+					ps <= GetData1;
+				end
+			end
+
+
+		endcase // ps
+		end
+	end
+
+	always @(*) begin : proc_combitional
+		case(ps)
+			GetData1:
+			begin 
+				inputValid = 0;
+			end
+			InputValidStage:
+			begin
+				inputValid = 1;
+				DataOutFIR = IOData;
+			end
+
+			FIRCalculation:
+			begin
+				inputValid = 0;
+			end
+
+			SendData1:
+			begin
+				DataOutTx = IOData[15:8];
+				if(busy)
+				begin
+					TxD_start = 1;
+				end
+				else begin
+					TxD_start = 0;
+				end
+			end
+
+			SendData2:
+			begin
+				DataOutTx = IOData[7:0];
+				if(busy)
+				begin
+					TxD_start = 1;
+				end
+				else begin
+					TxD_start = 0;
+				end
+			end
+		endcase // ps
+
+
+
+	end
+
+
+
+
+
+
+
+
+
+
+endmodule
+
+
+
+
+
+
+
+

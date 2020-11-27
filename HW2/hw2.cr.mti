@@ -1,0 +1,40 @@
+C:/Users/microsoft/Documents/UT/FPGA/HW2/dut.v {1 {vlog -work work C:/Users/microsoft/Documents/UT/FPGA/HW2/dut.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dut
+
+Top level modules:
+	dut
+
+} {} {}} C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv {2 {vlog -work work -sv C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_overlap_nonoverlap
+** Warning: C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv(8): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+** Warning: C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv(8): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+** Warning: C:/Users/microsoft/Documents/UT/FPGA/HW2/test_overalp_nonoverlap.sv(13): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+
+Top level modules:
+	test_overlap_nonoverlap
+
+} {} {}} C:/Users/microsoft/Documents/UT/FPGA/HW2/test_dut.sv {1 {vlog -work work -sv C:/Users/microsoft/Documents/UT/FPGA/HW2/test_dut.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_dut
+
+Top level modules:
+	test_dut
+
+} {} {}}
